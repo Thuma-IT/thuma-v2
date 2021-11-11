@@ -1,0 +1,23 @@
+{
+  "name": "thuma-v2",
+  "version": "1.0.0",
+  "description": "Thuma website version 2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o public/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thuma-IT/thuma-v2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thuma-IT/thuma-v2/issues"
+  },
+  "homepage": "https://github.com/Thuma-IT/thuma-v2#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
